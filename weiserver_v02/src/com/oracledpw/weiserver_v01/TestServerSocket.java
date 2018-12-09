@@ -15,7 +15,7 @@ public class TestServerSocket {
         	 ServerSocket   s=null;
         	 try {
 				//服务器端
-				   s=new ServerSocket(180);
+				   s=new ServerSocket(8080);
 				 
 				 //等待浏览器来访问                          但是还得有一个浏览器对象
 				 //但是这个服务器可以多个浏览器访问所以就用到了多线程    因为是多个访问 
