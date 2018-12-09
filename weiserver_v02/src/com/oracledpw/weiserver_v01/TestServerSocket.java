@@ -10,7 +10,10 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class TestServerSocket {
-          
+          /**
+           * 
+           * @param args
+           */
          public static void main(String[] args) {
         	 ServerSocket   s=null;
         	 try {
